@@ -1,17 +1,16 @@
 package com.universidad.dto;
 
-import java.time.LocalDate;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
+import java.time.LocalDate;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class DocenteDTO {
     private Long id;
     private String nombre;
@@ -19,5 +18,6 @@ public class DocenteDTO {
     private String email;
     private LocalDate fechaNacimiento;
     private String nroEmpleado;
-    private String departamento;
+    private String departmento;
+
 }
