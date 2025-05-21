@@ -111,10 +111,6 @@ La documentación completa de los endpoints del **Sistema de Gestión Universita
 
 ## 📦 **Ejecución del Proyecto**
 1. **Clonar el Repositorio:**
-``` bash
-   git clone https://github.com/michellepoma/Practica-Nro.-2-TAW-251.git
-   cd Practica-Nro.-2-TAW-251
-```
 1. **Configurar la Base de Datos:**
    En el archivo , define las propiedades para conectar tu base de datos **PostgreSQL**. Ejemplo: `src/main/resources/application.properties`
 ``` 
